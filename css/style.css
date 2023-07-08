@@ -1,0 +1,143 @@
+
+
+.div1{
+
+    position: absolute;
+    left: 0;
+    animation-name: car1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+
+}
+@keyframes car1{
+
+    0% {
+        left: 0;
+    }
+
+
+    100%{
+        left: 1260px;
+    }
+}
+/* /////////////////////////////////////////// */
+.div2{
+
+    position: absolute;
+    right: 0;
+    top: 100px;
+    animation-name: car2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+
+
+}
+@keyframes car2{
+
+    0% {
+        right: 0;
+    }
+
+
+    100%{
+        right: 1260px;
+    }
+}
+/* //////////////////////////////////////////////// */
+.div3{
+
+    position: absolute;
+    left: 0;
+    top: 200px;
+    animation-name: car3;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes car3{
+
+    0% {
+        left: 0;
+    }
+
+
+    100%{
+        left: 1260px;
+    }
+}
+/* ///////////////////////////////////////////////////////// */
+.div4{
+
+    position: absolute;
+    right: 0;
+    top: 300px;
+    animation-name: car4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+
+
+}
+@keyframes car4{
+
+    0% {
+        right: 0;
+    }
+
+
+    100%{
+        right: 1260px;
+    }
+}
+
+/* ///////////////////////////////////////////////////////////// */
+.div5{
+
+    position: absolute;
+    left: 0;
+    top: 400px;
+    animation-name: car5;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes car5{
+
+    0% {
+        left: 0;
+    }
+
+
+    100%{
+        left: 1260px;
+    }
+}
+/* ////////////////////////////////////////////////////////////////////// */
+.div6{
+
+    position: absolute;
+    right: 0;
+    top: 500px;
+    animation-name: car6;
+    animation-duration: 2s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+   
+
+
+}
+@keyframes car6{
+
+    0% {
+        right: 0;
+    }
+
+
+    100%{
+        right: 1260px;
+    }
+}
